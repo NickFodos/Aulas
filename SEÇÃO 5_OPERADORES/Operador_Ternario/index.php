@@ -1,4 +1,5 @@
 <?php 
+//IF e ELSE de maneira resumida;
 function br(){echo "<br>";}
 //true
 echo 20 > 10 ?" TRUE " . br() :" FALSE " . br();
