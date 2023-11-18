@@ -4,5 +4,9 @@ function escreva ($escrita) { echo "$escrita";}
 function printr ($printr) { print_r ($printr);}
 function vardump ($vardump) { var_dump ($vardump);}
 function pre () {echo "<pre>"; }
-function Percorrer ($A) {foreach ($A as $B ) {echo $B;}}
+function Percorrer ($A) {foreach ($A as $B ) {echo $B . "<br>";}}
+function lista (&$Lista,...$item) {$Lista = $item; printr ($Lista);}
+
+
+
 ?>
